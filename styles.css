@@ -97,9 +97,7 @@ h2.mini-grid, h2.main-grid-side {
     text-align: center;   
     border-left-width: 0;
 }
-h2.mini-grid {
-    background-image: linear-gradient(var(--ClearMagenta), var(--BlueBack));
-}
+
 
 h2.main-grid-side {
     background-image: linear-gradient(var(--LightClear), var(--LightClearMagenta));
