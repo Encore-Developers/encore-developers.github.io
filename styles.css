@@ -90,6 +90,35 @@ h1.main-grid-side {
     background-image: linear-gradient(var(--LightClear), var(--LightClearMagenta));
 
 }
+
+h2.mini-grid, h2.main-grid-side {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;   
+    border-left-width: 0;
+}
+
+
+h2.main-grid-side {
+    background-image: linear-gradient(var(--LightClear), var(--LightClearMagenta));
+
+}
+
+h3.mini-grid, h3.main-grid-side {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;   
+    border-left-width: 0;
+}
+h3.mini-grid {
+    background-image: linear-gradient(var(--ClearMagenta), var(--BlueBack));
+}
+
+h3.main-grid-side {
+    background-image: linear-gradient(var(--LightClear), var(--LightClearMagenta));
+
+}
+
 p.main-grid-side {
     background-color: var(--LightClearMagenta);
 }
@@ -278,4 +307,9 @@ nav a:hover, nav  a:active {
     background-color: var(--EncMagenta);
     font-weight: 500;
     color: white;
+}
+
+a.textLinks:-webkit-any-link {
+    font-weight: 500;
+    color: var(--EncMagenta);
 }
